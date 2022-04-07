@@ -34,14 +34,14 @@ const Button = styled.button`
 class HeadLogo extends Component {
     render() {
         return (
-        <StyledWrap>
-            <StyledHeader> { this.props.title } </StyledHeader>
-            <hr class = 'hrcss'></hr>
-            <Clock format = {'YYYY.MM.DD'} timezone ={'Asia/Seoul'} style = {{margin : '10px'}}/>
-            <Button>Stock</Button>
-            <Button>News</Button>
-            <hr class = 'hrcss' ></hr>
-        </StyledWrap>
+            <StyledWrap>
+                <StyledHeader> { this.props.title } </StyledHeader>
+                <hr className = 'hrcss'></hr>
+                <Clock format = {'YYYY.MM.DD'} timezone ={'Asia/Seoul'} style = {{margin : '10px'}}/>
+                <Button>Stock</Button>
+                <Button>News</Button>
+                <hr className = 'hrcss' ></hr>
+            </StyledWrap>
         );
     }
 }
