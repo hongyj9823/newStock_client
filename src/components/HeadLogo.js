@@ -38,7 +38,7 @@ class HeadLogo extends Component {
                 <StyledHeader> { this.props.title } </StyledHeader>
                 <hr className = 'hrcss'></hr>
                 <Clock format = {'YYYY.MM.DD'} timezone ={'Asia/Seoul'} style = {{margin : '10px'}}/>
-                <Button>Stock</Button>
+                <Button disabled>Stock</Button>
                 <Button>News</Button>
                 <hr className = 'hrcss' ></hr>
             </StyledWrap>

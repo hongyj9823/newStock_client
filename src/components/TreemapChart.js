@@ -138,8 +138,9 @@ const data = [
 export default class Chart extends Component  {
     render() {
         return (
+          <div style = {{ padding : '0px 20px'}}>
             <Treemap
-              width={800}
+              width={1100}
               height={600}
               data={data}
               dataKey="size"
@@ -147,6 +148,8 @@ export default class Chart extends Component  {
               stroke="#fff"
               fill="#8884d8"
               />
+          </div>
         );
+
     }
 }
