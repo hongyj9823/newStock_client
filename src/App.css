@@ -2,10 +2,12 @@
 
 .App {
   text-align: center;
+  
 }
 
 .Frame {
   font-family: 'Cinzel',serif;
   width : 80%;
   margin : 0 auto;
+  cursor : default;
 }

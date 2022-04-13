@@ -1,9 +1,10 @@
 import React from 'react';
-
-export default function ChildComponent ({data,setClick}){
+export default function ChildComponent ({data}){
     return (
-        <div className = "childComponent" onClick = {()=> setClick(data)}>
-        {data}
+        <>
+        <div className = "childComponent" data-tip = {data.data} data-for = "bubble" style = {{backgroundColor : data.color + "d0",}}>
+        {data.data}
         </div>
+        </>
     );
 }  
