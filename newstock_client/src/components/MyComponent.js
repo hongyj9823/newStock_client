@@ -5,7 +5,6 @@ import Child from "./ChildComponent";
 import "./myComponent.css";
 
 export default function MyComponent(props) {
-    console.log(props);
     const options = {
         size : 200,
         minSize : 30,
