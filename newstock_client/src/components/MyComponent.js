@@ -4,6 +4,7 @@ import ReactTooltip from "react-tooltip";
 import Child from "./ChildComponent";
 import "./myComponent.css";
 
+
 export default function MyComponent(props) {
     const options = {
         size : 200,
@@ -33,7 +34,7 @@ export default function MyComponent(props) {
         <BubbleUI options = {options} className = "myBubbleUI" >
             {children}
         </BubbleUI>
-        <ReactTooltip className = "eachBub" id = "bubble" effect ="solid"
+        <ReactTooltip className = "eachBub" id = "bubble" effect ="solid" data-delayHide="0"
         getContent = {(dataTip) => 
             <>
             <h1> headline </h1>
