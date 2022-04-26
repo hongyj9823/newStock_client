@@ -12,4 +12,5 @@ npm install
 * react-bubble-ui
 * react-icons
 * react-router-dom
+* react-moment
 
