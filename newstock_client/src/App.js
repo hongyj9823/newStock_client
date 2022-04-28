@@ -19,7 +19,7 @@ function App() {
         <Routes>
           <Route path = "/" element = {<MyComponent data = {keywords}/>}></Route>
           <Route path =  "/stock" element = {<TreemapChart/>}></Route>
-          <Route path = "/topic" element = {<Dailynews />}></Route>
+          <Route path = "/topic/:keyword" element = {<Dailynews />}></Route>
         </Routes>
         
 
