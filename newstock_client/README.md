@@ -13,4 +13,4 @@ npm install
 * react-icons
 * react-router-dom
 * react-moment
-
+* apexcharts
